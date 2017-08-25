@@ -1,0 +1,306 @@
+==============筛选出的有用节点信息=================
+1 @3 integer_type name:@1 size:@5 algn:32 prec:32 sign:signed min:@6 max:@7 
+1 @5 integer_cst type:@11 low:32 
+1 @12 integer_cst type:@11 low:8 
+1 @129 void_type name:@126 algn:8 
+1 @155 translation_unit_decl 
+1 @1976 integer_cst type:@3 low:0 
+1 @1995 integer_cst type:@3 low:1 
+1 @2012 integer_cst type:@3 low:2 
+1 @2030 integer_cst type:@3 low:3 
+1 @2551 function_type size:@12 algn:8 retn:@3 
+1 @3890 function_decl name:@3893 type:@3894 scpe:@155 srcp:switch.c:2 link:extern body:@3895 
+1 @3893 identifier_node strg:main lngt:4 
+1 @3894 function_type unql:@2551 size:@12 algn:8 retn:@3 
+1 @3895 bind_expr type:@129 vars:@3898 body:@3899 
+1 @3898 var_decl name:@3902 type:@3 scpe:@3890 srcp:switch.c:3 init:@2030 size:@5 algn:32 used:1 
+1 @3899 statement_list 0 :@3903 1 :@3904 2 :@3905 3 :@3906 
+1 @3902 identifier_node strg:a lngt:1 
+1 @3903 decl_expr type:@129 
+1 @3904 switch_expr type:@3 cond:@3898 body:@3909 
+1 @3905 label_expr type:@129 name:@3910 
+1 @3906 return_expr type:@129 expr:@3911 
+1 @3909 statement_list 0 :@3914 1 :@3915 2 :@3916 3 :@3917 4 :@3918 5 :@3919 6 :@3920 7 :@3921 
+1 @3910 label_decl type:@129 scpe:@3890 srcp:switch.c:5 note:artificial 
+1 @3911 modify_expr type:@3 op 0:@3922 op 1:@1976 
+1 @3914 case_label_expr type:@129 name:@3925 low:@1995 
+1 @3915 modify_expr type:@3 op 0:@3898 op 1:@3926 
+1 @3916 goto_expr type:@129 labl:@3910 
+1 @3917 case_label_expr type:@129 name:@3927 low:@2012 
+1 @3918 modify_expr type:@3 op 0:@3898 op 1:@3928 
+1 @3919 goto_expr type:@129 labl:@3910 
+1 @3920 case_label_expr type:@129 name:@3929 
+1 @3921 modify_expr type:@3 op 0:@3898 op 1:@3930 
+1 @3922 result_decl type:@3 scpe:@3890 srcp:switch.c:2 note:artificial size:@5 algn:32 
+1 @3925 label_decl type:@129 scpe:@3890 srcp:switch.c:5 note:artificial 
+1 @3926 plus_expr type:@3 op 0:@3898 op 1:@1995 
+1 @3927 label_decl type:@129 scpe:@3890 srcp:switch.c:6 note:artificial 
+1 @3928 plus_expr type:@3 op 0:@3898 op 1:@2012 
+1 @3929 label_decl type:@129 scpe:@3890 srcp:switch.c:7 note:artificial 
+1 @3930 plus_expr type:@3 op 0:@3898 op 1:@2030 
+总结点个数39
+
+
+
+
+
+==============hash编号结果=================
+@0 integer_type name:@-1 size:@1 algn:32 prec:32 sign:signed min:@-1 max:@-1 
+@1 integer_cst type:@-1 low:32 
+@2 integer_cst type:@-1 low:8 
+@3 void_type name:@-1 algn:8 
+@4 translation_unit_decl 
+@5 integer_cst type:@0 low:0 
+@6 integer_cst type:@0 low:1 
+@7 integer_cst type:@0 low:2 
+@8 integer_cst type:@0 low:3 
+@9 function_type size:@2 algn:8 retn:@0 
+@10 function_decl name:@11 type:@12 scpe:@4 srcp:switch.c:2 link:extern body:@13 
+@11 identifier_node strg:main lngt:4 
+@12 function_type unql:@9 size:@2 algn:8 retn:@0 
+@13 bind_expr type:@3 vars:@14 body:@15 
+@14 var_decl name:@16 type:@0 scpe:@10 srcp:switch.c:3 init:@8 size:@1 algn:32 used:1 
+@15 statement_list 0 :@17 1 :@18 2 :@19 3 :@20 
+@16 identifier_node strg:a lngt:1 
+@17 decl_expr type:@3 
+@18 switch_expr type:@0 cond:@14 body:@21 
+@19 label_expr type:@3 name:@22 
+@20 return_expr type:@3 expr:@23 
+@21 statement_list 0 :@24 1 :@25 2 :@26 3 :@27 4 :@28 5 :@29 6 :@30 7 :@31 
+@22 label_decl type:@3 scpe:@10 srcp:switch.c:5 note:artificial 
+@23 modify_expr type:@0 op 0:@32 op 1:@5 
+@24 case_label_expr type:@3 name:@33 low:@6 
+@25 modify_expr type:@0 op 0:@14 op 1:@34 
+@26 goto_expr type:@3 labl:@22 
+@27 case_label_expr type:@3 name:@35 low:@7 
+@28 modify_expr type:@0 op 0:@14 op 1:@36 
+@29 goto_expr type:@3 labl:@22 
+@30 case_label_expr type:@3 name:@37 
+@31 modify_expr type:@0 op 0:@14 op 1:@38 
+@32 result_decl type:@0 scpe:@10 srcp:switch.c:2 note:artificial size:@1 algn:32 
+@33 label_decl type:@3 scpe:@10 srcp:switch.c:5 note:artificial 
+@34 plus_expr type:@0 op 0:@14 op 1:@6 
+@35 label_decl type:@3 scpe:@10 srcp:switch.c:6 note:artificial 
+@36 plus_expr type:@0 op 0:@14 op 1:@7 
+@37 label_decl type:@3 scpe:@10 srcp:switch.c:7 note:artificial 
+@38 plus_expr type:@0 op 0:@14 op 1:@8 
+
+
+
+
+
+
+
+
+====================节点信息筛选后生成的树结构=================
+0 integer_type  有0个子节点   有0个属性值
+1 integer_cst  有0个子节点   有1个属性值  ++>low:32
+2 integer_cst  有0个子节点   有1个属性值  ++>low:8
+3 void_type  有0个子节点   有0个属性值
+4 translation_unit_decl  有0个子节点   有0个属性值
+5 integer_cst  有1个子节点   有1个属性值==>type:@0  ++>low:0
+6 integer_cst  有1个子节点   有1个属性值==>type:@0  ++>low:1
+7 integer_cst  有1个子节点   有1个属性值==>type:@0  ++>low:2
+8 integer_cst  有1个子节点   有1个属性值==>type:@0  ++>low:3
+9 function_type  有2个子节点   有0个属性值==>size:@2==>retn:@0
+10 function_decl  有4个子节点   有1个属性值==>name:@11==>type:@12==>scpe:@4==>body:@13  ++>link:extern
+11 identifier_node  有0个子节点   有1个属性值  ++>strg:main
+12 function_type  有3个子节点   有0个属性值==>unql:@9==>size:@2==>retn:@0
+13 bind_expr  有3个子节点   有0个属性值==>type:@3==>vars:@14==>body:@15
+14 var_decl  有5个子节点   有1个属性值==>name:@16==>type:@0==>scpe:@10==>init:@8==>size:@1  ++>used:1
+15 statement_list  有4个子节点   有0个属性值==>0 :@17==>1 :@18==>2 :@19==>3 :@20
+16 identifier_node  有0个子节点   有1个属性值  ++>strg:a
+17 decl_expr  有1个子节点   有0个属性值==>type:@3
+18 switch_expr  有3个子节点   有0个属性值==>type:@0==>cond:@14==>body:@21
+19 label_expr  有2个子节点   有0个属性值==>type:@3==>name:@22
+20 return_expr  有2个子节点   有0个属性值==>type:@3==>expr:@23
+21 statement_list  有8个子节点   有0个属性值==>0 :@24==>1 :@25==>2 :@26==>3 :@27==>4 :@28==>5 :@29==>6 :@30==>7 :@31
+22 label_decl  有2个子节点   有1个属性值==>type:@3==>scpe:@10  ++>note:artificial
+23 modify_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@32==>op 1:@5
+24 case_label_expr  有3个子节点   有0个属性值==>type:@3==>name:@33==>low:@6
+25 modify_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@14==>op 1:@34
+26 goto_expr  有2个子节点   有0个属性值==>type:@3==>labl:@22
+27 case_label_expr  有3个子节点   有0个属性值==>type:@3==>name:@35==>low:@7
+28 modify_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@14==>op 1:@36
+29 goto_expr  有2个子节点   有0个属性值==>type:@3==>labl:@22
+30 case_label_expr  有2个子节点   有0个属性值==>type:@3==>name:@37
+31 modify_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@14==>op 1:@38
+32 result_decl  有3个子节点   有1个属性值==>type:@0==>scpe:@10==>size:@1  ++>note:artificial
+33 label_decl  有2个子节点   有1个属性值==>type:@3==>scpe:@10  ++>note:artificial
+34 plus_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@14==>op 1:@6
+35 label_decl  有2个子节点   有1个属性值==>type:@3==>scpe:@10  ++>note:artificial
+36 plus_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@14==>op 1:@7
+37 label_decl  有2个子节点   有1个属性值==>type:@3==>scpe:@10  ++>note:artificial
+38 plus_expr  有3个子节点   有0个属性值==>type:@0==>op 0:@14==>op 1:@8
+
+
+
+====================生成树结构后二次标准化(图->树   子节点->属性节点)=================
+0 integer_type  有0个子节点   有0个属性值
+1 integer_cst  有0个子节点   有1个属性值  ++>low:32
+2 integer_cst  有0个子节点   有1个属性值  ++>low:8
+3 void_type  有0个子节点   有0个属性值
+4 translation_unit_decl  有0个子节点   有0个属性值
+5 integer_cst  有0个子节点   有2个属性值  ++>low:0  ++>type:integer_type
+6 integer_cst  有0个子节点   有2个属性值  ++>low:1  ++>type:integer_type
+7 integer_cst  有0个子节点   有2个属性值  ++>low:2  ++>type:integer_type
+8 integer_cst  有0个子节点   有2个属性值  ++>low:3  ++>type:integer_type
+9 function_type  有0个子节点   有2个属性值  ++>size-low:8  ++>retn:integer_type
+10 function_decl  有3个子节点   有2个属性值==>name:@11==>type:@12==>body:@13  ++>link:extern  ++>scpe:translation_unit_decl
+11 identifier_node  有0个子节点   有1个属性值  ++>strg:main
+12 function_type  有0个子节点   有4个属性值  ++>unql-size-low:8  ++>unql-retn:integer_type  ++>size-low:8  ++>retn:integer_type
+13 bind_expr  有2个子节点   有1个属性值==>vars:@14==>body:@15  ++>type:void_type
+14 var_decl  有1个子节点   有6个属性值==>name:@16  ++>used:1  ++>type:integer_type  ++>scpe:@10  ++>init-low:3  ++>init-type:integer_type  ++>size-low:32
+15 statement_list  有4个子节点   有0个属性值==>0 :@17==>1 :@18==>2 :@19==>3 :@20
+16 identifier_node  有0个子节点   有1个属性值  ++>strg:a
+17 decl_expr  有0个子节点   有1个属性值  ++>type:void_type
+18 switch_expr  有1个子节点   有2个属性值==>body:@21  ++>type:integer_type  ++>cond:@14
+19 label_expr  有1个子节点   有1个属性值==>name:@22  ++>type:void_type
+20 return_expr  有1个子节点   有1个属性值==>expr:@23  ++>type:void_type
+21 statement_list  有8个子节点   有0个属性值==>0 :@24==>1 :@25==>2 :@26==>3 :@27==>4 :@28==>5 :@29==>6 :@30==>7 :@31
+22 label_decl  有0个子节点   有3个属性值  ++>note:artificial  ++>type:void_type  ++>scpe:@10
+23 modify_expr  有1个子节点   有3个属性值==>op 0:@32  ++>type:integer_type  ++>op 1-low:0  ++>op 1-type:integer_type
+24 case_label_expr  有1个子节点   有3个属性值==>name:@33  ++>type:void_type  ++>low-low:1  ++>low-type:integer_type
+25 modify_expr  有1个子节点   有2个属性值==>op 1:@34  ++>type:integer_type  ++>op 0:@14
+26 goto_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>labl:@22
+27 case_label_expr  有1个子节点   有3个属性值==>name:@35  ++>type:void_type  ++>low-low:2  ++>low-type:integer_type
+28 modify_expr  有1个子节点   有2个属性值==>op 1:@36  ++>type:integer_type  ++>op 0:@14
+29 goto_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>labl:@22
+30 case_label_expr  有1个子节点   有1个属性值==>name:@37  ++>type:void_type
+31 modify_expr  有1个子节点   有2个属性值==>op 1:@38  ++>type:integer_type  ++>op 0:@14
+32 result_decl  有0个子节点   有4个属性值  ++>note:artificial  ++>type:integer_type  ++>scpe:@10  ++>size-low:32
+33 label_decl  有0个子节点   有3个属性值  ++>note:artificial  ++>type:void_type  ++>scpe:@10
+34 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:1  ++>op 1-type:integer_type
+35 label_decl  有0个子节点   有3个属性值  ++>note:artificial  ++>type:void_type  ++>scpe:@10
+36 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:2  ++>op 1-type:integer_type
+37 label_decl  有0个子节点   有3个属性值  ++>note:artificial  ++>type:void_type  ++>scpe:@10
+38 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:3  ++>op 1-type:integer_type
+
+
+到目前为止获得的根节点为10，前面的标号已经在树中剔除！！！
+
+++++++++++++++++11
+++++++++++++++++12
+++++++++++++++++13
+++++++++++++++++14
+++++++++++++++++15
+++++++++++++++++16
+++++++++++++++++17
+++++++++++++++++18
+debug : child number:39
+debug : child number:41
+debug : child number:43
+++++++++++++++++19
+++++++++++++++++20
+++++++++++++++++40
+++++++++++++++++42
+++++++++++++++++44
+++++++++++++++++23
+++++++++++++++++24
+++++++++++++++++25
+++++++++++++++++26
+++++++++++++++++27
+++++++++++++++++28
+++++++++++++++++29
+++++++++++++++++30
+++++++++++++++++31
+++++++++++++++++32
+++++++++++++++++34
+++++++++++++++++36
+++++++++++++++++38
+
+
+
+====================生成树结构后三次标准化(循环语句和选择语句)=================
+0 integer_type  有0个子节点   有0个属性值
+1 integer_cst  有0个子节点   有1个属性值  ++>low:32
+2 integer_cst  有0个子节点   有1个属性值  ++>low:8
+3 void_type  有0个子节点   有0个属性值
+4 translation_unit_decl  有0个子节点   有0个属性值
+5 integer_cst  有0个子节点   有2个属性值  ++>low:0  ++>type:integer_type
+6 integer_cst  有0个子节点   有2个属性值  ++>low:1  ++>type:integer_type
+7 integer_cst  有0个子节点   有2个属性值  ++>low:2  ++>type:integer_type
+8 integer_cst  有0个子节点   有2个属性值  ++>low:3  ++>type:integer_type
+9 function_type  有0个子节点   有2个属性值  ++>size-low:8  ++>retn:integer_type
+10 function_decl  有3个子节点   有2个属性值==>name:@11==>type:@12==>body:@13  ++>link:extern  ++>scpe:translation_unit_decl
+11 identifier_node  有0个子节点   有1个属性值  ++>strg:main
+12 function_type  有0个子节点   有4个属性值  ++>unql-size-low:8  ++>unql-retn:integer_type  ++>size-low:8  ++>retn:integer_type
+13 bind_expr  有2个子节点   有1个属性值==>vars:@14==>body:@15  ++>type:void_type
+14 var_decl  有1个子节点   有6个属性值==>name:@16  ++>used:1  ++>type:integer_type  ++>scpe:@10  ++>init-low:3  ++>init-type:integer_type  ++>size-low:32
+15 statement_list  有4个子节点   有0个属性值==>0 :@17==>1 :@18==>2 :@19==>3 :@20
+16 identifier_node  有0个子节点   有1个属性值  ++>strg:a
+17 decl_expr  有0个子节点   有1个属性值  ++>type:void_type
+18 selection  有3个子节点   有2个属性值==>branch1:@40==>branch2:@42==>branch3:@44  ++>type:integer_type  ++>cond:@14
+19 label_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>name22
+20 return_expr  有1个子节点   有1个属性值==>expr:@23  ++>type:void_type
+22 label_decl  有0个子节点   有3个属性值  ++>note:artificial  ++>type:void_type  ++>scpe:@10
+23 modify_expr  有1个子节点   有3个属性值==>op 0:@32  ++>type:integer_type  ++>op 1-low:0  ++>op 1-type:integer_type
+24 eq_expr  有0个子节点   有5个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:1  ++>op 1-type:integer_type  ++>name:@33
+26 goto_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>labl:@22
+27 eq_expr  有0个子节点   有5个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:2  ++>op 1-type:integer_type  ++>name:@35
+29 goto_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>labl:@22
+30 eq_expr  有0个子节点   有3个属性值  ++>type:integer_type  ++>op 0:@14  ++>name:@37
+32 result_decl  有0个子节点   有4个属性值  ++>note:artificial  ++>type:integer_type  ++>scpe:@10  ++>size-low:32
+34 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:1  ++>op 1-type:integer_type
+36 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:2  ++>op 1-type:integer_type
+38 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:3  ++>op 1-type:integer_type
+39 modify_expr  有1个子节点   有2个属性值==>op 1:@34  ++>type:integer_type  ++>op 0:@14
+40 branch  有2个子节点   有0个属性值==>op 0:@24==>op 1:@39
+41 modify_expr  有1个子节点   有2个属性值==>op 1:@36  ++>type:integer_type  ++>op 0:@14
+42 branch  有2个子节点   有0个属性值==>op 0:@27==>op 1:@41
+43 modify_expr  有1个子节点   有2个属性值==>op 1:@38  ++>type:integer_type  ++>op 0:@14
+44 branch  有1个子节点   有0个属性值==>op 1:@43
+
+
+
+debug log: come in normalizeCall
+i=39 j=0  convert to attribute:op 1:@34
+i=40 j=0  convert to attribute:op 0:@24
+i=41 j=0  convert to attribute:op 1:@36
+i=42 j=0  convert to attribute:op 0:@27
+i=43 j=0  convert to attribute:op 1:@38
+
+
+
+
+
+
+====================最后一次调用出现环规范化！！！=================
+0 integer_type  有0个子节点   有0个属性值
+1 integer_cst  有0个子节点   有1个属性值  ++>low:32
+2 integer_cst  有0个子节点   有1个属性值  ++>low:8
+3 void_type  有0个子节点   有0个属性值
+4 translation_unit_decl  有0个子节点   有0个属性值
+5 integer_cst  有0个子节点   有2个属性值  ++>low:0  ++>type:integer_type
+6 integer_cst  有0个子节点   有2个属性值  ++>low:1  ++>type:integer_type
+7 integer_cst  有0个子节点   有2个属性值  ++>low:2  ++>type:integer_type
+8 integer_cst  有0个子节点   有2个属性值  ++>low:3  ++>type:integer_type
+9 function_type  有0个子节点   有2个属性值  ++>size-low:8  ++>retn:integer_type
+10 function_decl  有3个子节点   有2个属性值==>name:@11==>type:@12==>body:@13  ++>link:extern  ++>scpe:translation_unit_decl
+11 identifier_node  有0个子节点   有1个属性值  ++>strg:main
+12 function_type  有0个子节点   有4个属性值  ++>unql-size-low:8  ++>unql-retn:integer_type  ++>size-low:8  ++>retn:integer_type
+13 bind_expr  有2个子节点   有1个属性值==>vars:@14==>body:@15  ++>type:void_type
+14 var_decl  有1个子节点   有6个属性值==>name:@16  ++>used:1  ++>type:integer_type  ++>scpe:@10  ++>init-low:3  ++>init-type:integer_type  ++>size-low:32
+15 statement_list  有4个子节点   有0个属性值==>0 :@17==>1 :@18==>2 :@19==>3 :@20
+16 identifier_node  有0个子节点   有1个属性值  ++>strg:a
+17 decl_expr  有0个子节点   有1个属性值  ++>type:void_type
+18 selection  有3个子节点   有2个属性值==>branch1:@40==>branch2:@42==>branch3:@44  ++>type:integer_type  ++>cond:@14
+19 label_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>name22
+20 return_expr  有1个子节点   有1个属性值==>expr:@23  ++>type:void_type
+22 label_decl  有0个子节点   有3个属性值  ++>note:artificial  ++>type:void_type  ++>scpe:@10
+23 modify_expr  有1个子节点   有3个属性值==>op 0:@32  ++>type:integer_type  ++>op 1-low:0  ++>op 1-type:integer_type
+24 eq_expr  有0个子节点   有5个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:1  ++>op 1-type:integer_type  ++>name:@33
+26 goto_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>labl:@22
+27 eq_expr  有0个子节点   有5个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:2  ++>op 1-type:integer_type  ++>name:@35
+29 goto_expr  有0个子节点   有2个属性值  ++>type:void_type  ++>labl:@22
+30 eq_expr  有0个子节点   有3个属性值  ++>type:integer_type  ++>op 0:@14  ++>name:@37
+32 result_decl  有0个子节点   有4个属性值  ++>note:artificial  ++>type:integer_type  ++>scpe:@10  ++>size-low:32
+34 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:1  ++>op 1-type:integer_type
+36 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:2  ++>op 1-type:integer_type
+38 plus_expr  有0个子节点   有4个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1-low:3  ++>op 1-type:integer_type
+39 modify_expr  有0个子节点   有3个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1:@34
+40 branch  有1个子节点   有1个属性值==>op 1:@39  ++>op 0:@24
+41 modify_expr  有0个子节点   有3个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1:@36
+42 branch  有1个子节点   有1个属性值==>op 1:@41  ++>op 0:@27
+43 modify_expr  有0个子节点   有3个属性值  ++>type:integer_type  ++>op 0:@14  ++>op 1:@38
+44 branch  有1个子节点   有0个属性值==>op 1:@43

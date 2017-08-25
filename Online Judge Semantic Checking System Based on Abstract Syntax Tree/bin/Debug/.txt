@@ -1,0 +1,16 @@
+debug : >>>getstrdebug: come in normalizationTextTree
+==============筛选出的有用节点信息=================
+总结点个数0
+
+
+
+
+
+==============hash编号结果=================
+
+
+
+
+
+There is no node,Please check the input path or srcp file name!!!
+return nodelist.size()=0debug : >>>ini()   
